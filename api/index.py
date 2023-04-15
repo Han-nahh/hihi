@@ -59,7 +59,7 @@ class TelegramWebhook(BaseModel):
     poll_answer: Optional[dict]
 
 def start(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text=TOKEN)
+    context.bot.send_message(chat_id=update.effective_chat.id, text=TOKEN+"hi")
 
 def register_handlers(dispatcher):
     start_handler = CommandHandler('start', start)
