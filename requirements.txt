@@ -1,4 +1,5 @@
 fastapi==0.63.0
 python-telegram-bot==13.4
 
-
+#https://api.telegram.org/bot5998043260:AAFOmDM1F1JXNmfOvC2azwk7sweb-w4bX3k/setWebhook?url=https://hihi-blond.vercel.app/webhook
+#to set webhook
